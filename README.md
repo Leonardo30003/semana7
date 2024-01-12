@@ -1,16 +1,19 @@
-# semana7
+#Flutter Multi-Screen Navigation Demo
+Este es un proyecto demostrativo en Flutter que muestra cómo implementar la navegación entre varias pantallas y mantener un estado sincronizado a través de ellas. El proyecto incluye tres pantallas principales: la pantalla de inicio (MyHomePage), PageTwo y PantallaB. Un contador se mantiene sincronizado en todas las pantallas.
 
-A new Flutter project.
+#Comenzando
+Prerrequisitos
+Antes de empezar, asegúrate de tener instalado Flutter y Dart en tu sistema. También necesitarás un entorno de desarrollo adecuado como Android Studio o Visual Studio Code con las extensiones de Flutter y Dart.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Instalación
+Para ejecutar este proyecto en tu máquina local, sigue estos pasos:
+Clona el repositorio:
+https://github.com/Leonardo30003/semana7.git
+Instala las dependencias:
+flutter pub get
+Ejecuta la aplicación:
+flutter run
+#Uso
+La aplicación inicia en main, donde puedes ver y aumentar un contador. Hay botones que te llevan a PageTwo y PantallaB. El contador se sincroniza en todas las pantallas, permitiendo que los cambios se reflejen globalmente.
+#Autores
+Leonardo Carrion => https://github.com/Leonardo30003
